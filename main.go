@@ -2,6 +2,8 @@ package asciiart
 
 var (
 	Lib = make(map[string][]string)
+)
+func init() {
 	Lib["antifraud"] = []string{
 		`                       _|      _|      _|_|                                      _| `,
 		`   _|_|_|  _|_|_|    _|_|_|_|        _|      _|  _|_|    _|_|_|  _|    _|    _|_|_| `,
@@ -44,4 +46,4 @@ var (
 		` _|    _|    _|      _|    _|    _|      _|    _|`,
 		` _|    _|    _|        _|_|_|    _|      _|    _|`,
 	}
-)
+}
