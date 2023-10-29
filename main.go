@@ -1,4 +1,4 @@
-package asciiArt
+package asciiart
 
 var (
 	Antifraud = []string{
